@@ -4,6 +4,9 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-image: url("./Material/furniture-store-7319318.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 header {
     display: flex;
@@ -13,7 +16,6 @@ header {
     animation-name: header-anim;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    order: 1;
 }
 header h1 {
     font-family: 'Bebas Neue', cursive;
@@ -44,25 +46,23 @@ li {
 }
 a {
     text-decoration: none;
-    color: transparent;
-    animation-name: nav-bar-anim;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
     letter-spacing: 1px;
-}
-#main-img {
-    width: 100%;
-    position: fixed;
-    z-index: -1;
+    animation-name: nav-bar-anim;
+    animation-duration: 4s;
+    color: white;
 }
 #name-middle {
+    margin-left: 36.5%;
+    margin-top: 15%;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     color: white;
+    order: 1;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 170%;
+    letter-spacing: 3.5px;
 }
 @keyframes header-anim {
     0% {
